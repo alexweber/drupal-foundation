@@ -1,0 +1,37 @@
+name: F8n
+description: Experimental base theme using Zurb Foundation 5.
+core: 8.x
+type: theme
+engine: twig
+screenshot: images/screenshot.png
+stylesheets:
+  all:
+    - css/f8n.css
+scripts:
+  - js/bower_components/modernizr/modernizr.js
+  # @TODO Allow excluding components. We *could* just specify them individually
+  # here and allow users to uncomment them but we'd have to do the same for the
+  # SASS part. Maintaining 2 separate lists of components to include is kinda
+  # crappy though... Maybe we can do something cool in the UI?
+  - js/bower_components/foundation/js/foundation.min.js
+  - js/f8n.js
+regions:
+  header: Header
+  help: Help
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer_first: 'Footer first column'
+  footer_middle: 'Footer middle column'
+  footer_last: 'Footer last column'
+  footer: Footer
+regions_hidden:
+  page_top: 'Page Top'
+  page_bottom: 'Page bottom'
+settings:
+  status_in_reveal: '0'
+  core_css: '0'
+  core_js: '0'
