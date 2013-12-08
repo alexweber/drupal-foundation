@@ -8,7 +8,11 @@ screenshot: screenshot.png
 stylesheets:
   all:
     - css/f8n.css
+# @TODO investigate if we should use this.
 #stylesheets-remove:
+# @TODO investigate if we should use this.
+#ckeditor_stylesheets:
+#  - css/ckeditor-iframe.css
 scripts:
   - js/bower_components/modernizr/modernizr.js
   # @TODO Allow excluding components. We *could* just specify them individually
@@ -23,18 +27,24 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
+  featured: Featured
   content: Content
-  sidebar_first: 'Left Sidebar'
-  sidebar_second: 'Right Sidebar'
-  footer_first: 'Footer first column'
-  footer_middle: 'Footer middle column'
-  footer_last: 'Footer last column'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  triptych_first: 'Triptych first'
+  triptych_middle: 'Triptych middle'
+  triptych_last: 'Triptych last'
+  footer_firstcolumn: 'Footer first column'
+  footer_secondcolumn: 'Footer second column'
+  footer_thirdcolumn: 'Footer third column'
+  footer_fourthcolumn: 'Footer fourth column'
   footer: Footer
 regions_hidden:
   page_top: 'Page Top'
   page_bottom: 'Page bottom'
-# TODO do we need settings here?
+# @todo D8: Remove once themes have to be installed.
 settings:
+  shortcut_module_link: '0'
   status_in_reveal: '0'
   core_css: '0'
   core_js: '0'
