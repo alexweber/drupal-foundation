@@ -1,12 +1,14 @@
 name: F8n
-description: Experimental base theme using Zurb Foundation 5.
-core: 8.x
 type: theme
-engine: twig
-screenshot: images/screenshot.png
+description: 'Experimental base theme using Zurb Foundation 5.'
+#package: Foundation
+version: 8.x-1.0-dev
+core: 8.x
+screenshot: screenshot.png
 stylesheets:
   all:
     - css/f8n.css
+#stylesheets-remove:
 scripts:
   - js/bower_components/modernizr/modernizr.js
   # @TODO Allow excluding components. We *could* just specify them individually
@@ -31,6 +33,7 @@ regions:
 regions_hidden:
   page_top: 'Page Top'
   page_bottom: 'Page bottom'
+# TODO do we need settings here?
 settings:
   status_in_reveal: '0'
   core_css: '0'
