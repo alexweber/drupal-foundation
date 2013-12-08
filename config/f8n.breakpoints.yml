@@ -1,3 +1,5 @@
-mobile: '(min-width: 0px)'
-narrow: 'all and (min-width: 480px) and (max-width: 959px)'
-wide: 'all and (min-width: 960px)'
+small: '(min-width: 0px)'
+medium: 'only screen and (min-width:40.0625rem) and (max-width:64rem)'
+large: 'only screen and (min-width:64.0625rem) and (max-width:90rem)'
+xlarge: 'only screen and (min-width:90.0625rem) and (max-width:120rem)'
+xxlarge: 'only screen and (min-width:120.0625rem) and (max-width:999999999999)'
